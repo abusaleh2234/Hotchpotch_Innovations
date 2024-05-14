@@ -1,0 +1,109 @@
+import Container from '../Container/Container';
+
+const Aitools = () => {
+    return (
+        <div className='bg-[#12141D]'>
+            <Container>
+                <div className="flex justify-between items-center w-11/12 ">
+                    <div className="relative w-5/12 bg-[#FFFFFF] pt-4 px-7 rounded-xl">
+                        <div className="absolute -right-20 top-2/4 p-3 rounded-xl bg-[#FFFFFF]">
+                            <div className="flex space-x-2 pb-4">
+                                <div className="w-2 h-2 bg-[#F23936] rounded-full"></div>
+                                <div className="w-2 h-2 bg-[#FABB18] rounded-full"></div>
+                                <div className="w-2 h-2 bg-[#45C646] rounded-full"></div>
+                            </div>
+                            <div className="h-2 bg-[#2B59FF] rounded-full dark:bg-gray-700 w-14 mb-3"></div>
+                            <div className="w-64">
+                                <div className="h-2 bg-[#E1E3E8] rounded-full dark:bg-gray-700 w-52 mb-2"></div>
+                                <div className="h-2 bg-[#E1E3E8] rounded-full dark:bg-gray-700 w-44 mb-2"></div>
+                                <div className="h-2 bg-[#E1E3E8] rounded-full dark:bg-gray-700 w-36 mb-2"></div>
+                            </div>
+                        </div>
+                        <div className="space-y-6">
+                            <div className="space-y-2">
+                                <h3 className='inter-font text-lg font-semibold'>Results</h3>
+                                <p className='inter-font text-sm font-normal'>Here's what our AI came up with.</p>
+                            </div>
+                            <div className="p-[14px] text-sm font-normal rounded-xl bg-[#f4f6ff] space-y-5">
+                                <p>Pain: You are an e-commerce business, and you want to sell your products all over the country, but you are confused about how to handle sales tax.</p>
+                                <p>Agitate: You have no idea how much sales tax to charge your customers in each state.</p>
+                                <p>Solution: Use TaxSol, our full stack sales tax solution, to manage your sales tax for you!</p>
+                            </div>
+                            <div className="px-[14px] pt-[14px] text-sm font-normal rounded-xl bg-[#f4f6ff] space-y-4">
+                                <p>Pain: e-commerce business owners are struggling to keep up with the ever changing sales tax laws.</p>
+                                <p>Agitate: Sales tax is a complicated, confusing and expensive nightmare for e-commerce business owners.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="space-y-4 max-w-lg">
+                        <h2 className='outfit_font text-[42px] font-semibold text-[#FFFFFF]'>Create content efficiently and quickly with great AI writing tools</h2>
+                        <p className='inter-font text-lg font-normal text-[#B7B8BB]'>150k+ users. No Credit Card Required. Pro designs and writing at no cost. Start for free. Ai Writer Tool | Generate text for ecom, social media, website, sales, blogs etc.</p>
+                        <button className='px-[20px] py-3 font-semibold text-[#ffff] rounded-md bg-gradient-to-r from-blue-500 to-purple-600'>Start 14 Days Free Trial</button><br />
+                    </div>
+                </div>
+                <div className="py-36 flex gap-[165px] justify-evenly">
+                    <div className="space-y-4 max-w-md">
+                        <h2 className='outfit_font text-[42px] font-semibold text-[#FFFFFF]'>Write what you want to convey through clear, & authentic writing</h2>
+                        <p className='inter-font text-lg font-normal text-[#B7B8BB]'>AI-Writer is the most accurate content generation platform and writing tool that helps you transform your text into a completely personalized.</p>
+                        <button className='px-[20px] py-3 font-semibold text-[#ffff] rounded-md bg-gradient-to-r from-blue-500 to-purple-600'>Start 14 Days Free Trial</button><br />
+                    </div>
+                    <div className="flex gap-10 bg-[#FFFFFF] pt-4 px-5 rounded-[10px]">
+                        <div className="">
+                            <ul className='inter-font text-sm font-normal text-[#B7B8BB] space-y-4'>
+                                <li>Blog Outline</li>
+                                <li>Blog Intro</li>
+                                <li>Blog Conclusion</li>
+                                <li>AIDA</li>
+                                <li>PAS</li>
+                                <li>Content Rewriter</li>
+                            </ul>
+                            <div className="pt-4 space-y-4">
+                                <div className="h-2 bg-[#E1E3E8] rounded-full dark:bg-gray-700 w-[90px] mb-2"></div>
+                                <div className="h-2 bg-[#E1E3E8] rounded-full dark:bg-gray-700 w-[60px] mb-2"></div>
+                                <div className="h-2 bg-[#E1E3E8] rounded-full dark:bg-gray-700 w-[70px] mb-2"></div>
+                                <div className="h-2 bg-[#E1E3E8] rounded-full dark:bg-gray-700 w-[57px] mb-2"></div>
+                                <div className="h-2 bg-[#E1E3E8] rounded-full dark:bg-gray-700 w-[75px] mb-2"></div>
+                                <div className="h-2 bg-[#E1E3E8] rounded-full dark:bg-gray-700 w-[87px] mb-2"></div>
+                                <div className="h-2 bg-[#E1E3E8] rounded-full dark:bg-gray-700 w-[64px] mb-2"></div>
+                                <div className="h-2 bg-[#E1E3E8] rounded-full dark:bg-gray-700 w-[77px] mb-2"></div>
+                                <div className="h-2 bg-[#E1E3E8] rounded-full dark:bg-gray-700 w-[57px] mb-2"></div>
+                            </div>
+                        </div>
+                        <div className="">
+                            <div className="space-y-2">
+                                <h3 className='inter-font text-lg font-semibold'>Results</h3>
+                                <p className='inter-font text-sm font-normal'>Here's what our AI came up with.</p>
+                            </div>
+                            <div className="pt-5 space-y-3">
+                                <div className="bg-[#12141D] pl-[17px] pt-5 pb-6 pr-6 rounded-xl">
+                                    <div className="h-2 bg-[#E1E3E8] rounded-full dark:bg-gray-700 w-[50px] mb-4"></div>
+                                    <div className="h-2 bg-[#E1E3E8] rounded-full dark:bg-gray-700 w-[312px] mb-2"></div>
+                                    <div className="h-2 bg-[#E1E3E8] rounded-full dark:bg-gray-700 w-[288px] mb-2"></div>
+                                    <div className="h-2 bg-[#E1E3E8] rounded-full dark:bg-gray-700 w-[254px] "></div>
+                                </div>
+                                <div className="bg-[#f4f6ff] pl-[17px] pt-5 pb-6 pr-6 rounded-xl">
+                                    <div className="h-2 bg-[#E1E3E8] rounded-full dark:bg-gray-700 w-[50px] mb-4"></div>
+                                    <div className="h-2 bg-[#E1E3E8] rounded-full dark:bg-gray-700 w-[312px] mb-2"></div>
+                                    <div className="h-2 bg-[#E1E3E8] rounded-full dark:bg-gray-700 w-[288px] mb-2"></div>
+                                    <div className="h-2 bg-[#E1E3E8] rounded-full dark:bg-gray-700 w-[254px] "></div>
+                                </div>
+                                <div className="bg-[#f4f6ff] pl-[17px] pt-5 pb-6 pr-6 rounded-xl">
+                                    <div className="h-2 bg-[#E1E3E8] rounded-full dark:bg-gray-700 w-[50px] mb-4"></div>
+                                    <div className="h-2 bg-[#E1E3E8] rounded-full dark:bg-gray-700 w-[312px] mb-2"></div>
+                                    <div className="h-2 bg-[#E1E3E8] rounded-full dark:bg-gray-700 w-[288px] mb-2"></div>
+                                    <div className="h-2 bg-[#E1E3E8] rounded-full dark:bg-gray-700 w-[254px] "></div>
+                                </div>
+                                <div className="bg-[#f4f6ff] pl-[17px] pt-5 pb-6 pr-6 rounded-xl">
+                                    <div className="h-2 bg-[#E1E3E8] rounded-full dark:bg-gray-700 w-[50px]"></div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </Container>
+        </div>
+    );
+};
+
+export default Aitools;

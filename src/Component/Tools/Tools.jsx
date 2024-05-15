@@ -5,14 +5,14 @@ import tools3 from '../../assets/tools_3.png';
 import tools4 from '../../assets/tools_5.png';
 const Tools = () => {
     return (
-        <div className="bg-[#12141D] pb-20">
+        <div className="bg-[#12141D] pb-8 md:pb-20  px-2 lg:px-0">
             <Container>
                 <div className="">
                     <div className="text-center pb-14 space-y-6">
-                        <h2 className="outfit_font text-[42px] font-semibold text-[#FFFFFF]">54 exciting writing tools</h2>
-                        <p className="inter-font text-lg font-normal text-[#B7B8BB]">AI engines take information from various sources and read <br /> them like a human would do.</p>
+                        <h2 className="outfit_font text-2xl md:text-[42px] font-semibold text-[#FFFFFF]">54 exciting writing tools</h2>
+                        <p className="inter-font text-base md:text-lg font-normal text-[#B7B8BB] w-full md:max-w-lg mx-auto">AI engines take information from various sources and read them like a human would do.</p>
                     </div>
-                    <div className="grid grid-cols-4 gap-6">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                         <div className="flex gap-4 p-5 rounded-lg bg-[#282A37]">
                             <img src={tools1} className="w-9 h-9" alt="" />
                             <div className="space-y-2">

@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
         <div className='bg-[#12141D] inter-font font-medium'>
             <Container>
-                <div className="navbar justify-between p-0 min-h-0 text-[#FFFFFF]">
+                <div className="navbar justify-between py-2 sm:py-4 min-h-0 text-[#FFFFFF]">
                     <div className="navbar-start w-auto">
                         <div className="dropdown">
                             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -25,15 +25,15 @@ const Navbar = () => {
                             <img src={LOGO} className='w-14 p-2' alt="" />
                         </a>
                         <div className="navbar-center pl-4 w-auto hidden lg:flex">
-                            <ul className="menu text-base menu-horizontal px-1">
+                            <ul className="menu text-base menu-horizontal px-1 space-x-2">
                                 {Nav_Item}
                             </ul>
                         </div>
                     </div>
 
-                    <div className="space-x-3">
-                        <button className='px-5 py-3 rounded-md btn-outline text-[#ffffff]  bg-[#12141D] border-[1px] border-[#B7B8BB] hover:bg-gradient-to-r from-blue-600 to-purple-700'>Sign in</button>
-                        <button className='px-5 py-3 rounded-md  bg-gradient-to-r from-blue-600 to-purple-700 hover:bg-none hover:border-[1px] border-[#B7B8BB]'>Get Started Free</button>
+                    <div className="space-x-1 sm:space-x-3">
+                        <button className='px-2 sm:px-5 py-3 rounded-md text-sm font-light md:text-base sm:font-medium btn-outline text-[#ffffff]  bg-[#12141D] border-[1px] border-[#B7B8BB] hover:bg-gradient-to-r from-blue-600 to-purple-700'>Sign in</button>
+                        <button className='px-2 sm:px-5 py-3 rounded-md text-sm font-light md:text-base sm:font-medium bg-gradient-to-r from-blue-600 to-purple-700 border-[1px] border-[#12141D] hover:bg-none hover:border-[1px] hover:border-[#B7B8BB]'>Get Started Free</button>
                     </div>
                 </div>
             </Container>

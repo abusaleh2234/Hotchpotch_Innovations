@@ -2,14 +2,14 @@ import Container from "../Container/Container";
 import User1 from "../../assets/user1.png"
 const Testimonial = () => {
     return (
-        <div className="bg-[#252835] pt-[88px] pb-28">
+        <div className="bg-[#12141dfa] pt-10 md:pt-[88px] pb-10 md:pb-28 px-2 lg:px-0">
             <Container>
                 <div className="">
-                    <div className="text-center pb-14 space-y-5">
-                        <h2 className="outfit_font text-[42px] font-semibold text-[#FFFFFF]">What our customers say</h2>
-                        <p className="inter-font text-lg font-normal text-[#B7B8BB]">Read why thousands of marketers, writers, and <br /> entrepreneurs love us so much.</p>
+                    <div className="text-center pb-8 md:pb-14 space-y-5">
+                        <h2 className="outfit_font text-[24px] md:text-[42px] font-semibold text-[#FFFFFF]">What our customers say</h2>
+                        <p className="inter-font text-base md:text-lg font-normal text-[#B7B8BB] md:max-w-lg mx-auto">Read why thousands of marketers, writers, and entrepreneurs love us so much.</p>
                     </div>
-                    <div className="grid grid-cols-4 gap-6">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6">
                         <div className="bg-[#FFFFFF] py-6 px-5 rounded-md">
                             <div className="flex justify-between pb-5">
                                 <div className="flex items-center gap-3">

@@ -11,7 +11,7 @@ const Footer = () => {
                             <button className='block px-5 py-3 rounded-md  bg-[#FFFF] hover:bg-none font-semibold'>Get Started Free</button>
                         </div>
                     </div>
-                    <div className="pt-12 md:pt-24 text-[#FFFFFF] text-center grid grid-cols-1 md:grid-cols-4 justify-evenly space-y-7">
+                    <div className="pt-12 md:pt-24 text-[#FFFFFF] md:text-left text-center grid grid-cols-1  md:grid-cols-4 justify-evenly space-y-7 md:space-y-0">
                         <div className="">
                             <h4 className="font-semibold ">Company</h4>
                             <ul className="pt-4 text-sm font-normal space-y-2">

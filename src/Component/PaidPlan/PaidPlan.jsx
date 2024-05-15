@@ -2,7 +2,7 @@ import Container from "../Container/Container";
 
 const PaidPlan = () => {
     return (
-        <div className="bg-[#12141dfa] pt-12 md:pt-[88px] pb-8 md:pb-12 px-2 md:px-0">
+        <div className="bg-[#12141dfa] pt-12 md:pt-[88px] pb-8 md:pb-12 px-2 lg:px-0">
             <Container>
                 <div className="">
                     <div className="text-center pb-14 space-y-5">
